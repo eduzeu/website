@@ -45,6 +45,16 @@ const Journey = () => {
         ],
         tags: ["NYC", "Rome"],
       },
+      {
+        year: "2026",
+        title: "New York University",
+        subtitle: "M.S in Computer Science",
+        details: [
+          "Actively seeking research and TA positions",
+
+        ],
+        tags: ["NYC", "AI", "SWE"],
+      },
     ],
     []
   );
@@ -76,7 +86,8 @@ const Journey = () => {
         <h1>My Journey</h1>
         <p>
           Born and raised in El Salvador. Came to the U.S. in 2017, started at
-          Bergen CC, and graduated from Stevens in 2025 with a B.S. in Computer Science.
+          Bergen CC, and graduated from Stevens in 2025 with a B.S. in Computer Science. Currently pursuing
+          an M.S degree in Computer Science at NYU
         </p>
 
         <StatsRow>

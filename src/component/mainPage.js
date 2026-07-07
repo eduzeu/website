@@ -42,6 +42,9 @@ const handleSkillsClick = () => {
                 <MiniSub>NYC / NJ • Full-stack • React + Node</MiniSub>
               </TitleBlock>
 
+
+              
+
               <SocialRow>
                 <SocialMedia />
               </SocialRow>
@@ -70,6 +73,16 @@ const handleSkillsClick = () => {
                   cursor={false}
                 />
               </Name>
+
+
+            <Education>
+              <School>
+                🎓 B.S. Computer Science • Stevens Institute of Technology
+              </School>
+              <School>
+                📚 M.S. Computer Science • New York University
+              </School>
+            </Education>
 
               <Tagline>
                I am passionate about software development, especially building, designing and 
@@ -359,5 +372,42 @@ const GradientOverlay = styled.div`
   mix-blend-mode: screen;
 `;
 
+
+const EducationBlock = styled.div`
+  margin-top: 14px;
+  padding: 12px 14px;
+  border-radius: 18px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(48, 207, 208, 0.18);
+`;
+
+const EducationLabel = styled.div`
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+  margin-bottom: 8px;
+`;
+
+ const Education = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+
+  @media (max-width: 900px) {
+    align-items: center;
+  }
+`;
+
+const School = styled.div`
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.5;
+`;
 
 export default MainPage;
