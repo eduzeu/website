@@ -373,23 +373,7 @@ const GradientOverlay = styled.div`
 `;
 
 
-const EducationBlock = styled.div`
-  margin-top: 14px;
-  padding: 12px 14px;
-  border-radius: 18px;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.045);
-  border: 1px solid rgba(48, 207, 208, 0.18);
-`;
 
-const EducationLabel = styled.div`
-  font-family: 'Poppins', sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  opacity: 0.65;
-  margin-bottom: 8px;
-`;
 
  const Education = styled.div`
   display: flex;
